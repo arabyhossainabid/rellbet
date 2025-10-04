@@ -4,7 +4,7 @@ import RellbetLogo from "../../../../public/image/logo.webp";
 function Logobar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50  shadow-lg text-white bg-[#1a2c38]">
-      <div className="max-w-3xl flex items-center justify-between mx-auto p-3">
+      <div className="max-w-3xl flex items-center justify-between mx-auto py-3">
         <div className="">
           <Image
             src={RellbetLogo}
