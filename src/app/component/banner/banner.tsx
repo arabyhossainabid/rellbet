@@ -69,12 +69,12 @@ export default function Banner() {
           ))}
         </CarouselContent>
       </Carousel>
-      <div className="flex items-center mt-3 ms-5 gap-2 bottom-2">
+      <div className="flex items-center mt-3 ms-5 gap-1 bottom-2">
         {Array.from({ length: count }).map((_, index) => (
           <button
             key={index}
             onClick={() => api?.scrollTo(index)}
-            className={cn("h-0.5 w-3.5 rounded-full bg-white", {
+            className={cn("h-0.5 w-2.5 rounded-full bg-white", {
               "border-[#307df6] bg-[#307df6]": current === index + 1,
             })}
           />
